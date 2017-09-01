@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merida_Unit_Requirements -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 10:05:24 PM -->
+<GameData>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>SCOTTISH_ARCHER_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>SCOTTISH_ARCHER_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_IRON_WORKINGTECHNOLOGY_MERIDA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SCOTTISH_ARCHER_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_IRON_WORKINGTECHNOLOGY_MERIDA</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_IRON_WORKINGTECHNOLOGY_MERIDA</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_IRON_WORKING</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

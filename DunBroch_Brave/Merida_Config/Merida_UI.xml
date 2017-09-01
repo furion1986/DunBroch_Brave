@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merida_UI -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 10:58:09 PM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_DUNBROCH_MERIDA_PRIMARY</Type>
+			<Red>0.0745</Red>
+			<Green>0.201</Green>
+			<Blue>0.2667</Blue>
+			<Alpha>0.8</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_DUNBROCH_MERIDA_SECONDARY</Type>
+			<Red>0.875</Red>
+			<Green>0.459</Green>
+			<Blue>0.220</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_MERIDA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_DUNBROCH_MERIDA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DUNBROCH_MERIDA_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MERIDA" ForegroundImage="LEADER_MERIDA_NEUTRAL.dds"  BackgroundImage="MERIDA_LOAD.dds" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_MERIDA" BackgroundImage="MERIDA_DIP.dds"/>
+	</DiplomacyInfo>
+</GameData>

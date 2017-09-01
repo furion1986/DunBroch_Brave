@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merida_Leader -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 7:57:13 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_MERIDA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_BRAVE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_SCOTTISH_ARCHER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_UNION_AND_BRAVERY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_MERIDA" Name="LOC_LEADER_MERIDA_NAME" InheritFrom="LEADER_DEFAULT"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MERIDA" TraitType="TRAIT_LEADER_BRAVE"/>
+		<Row LeaderType="LEADER_MERIDA" TraitType="TRAIT_LEADER_SCOTTISH_ARCHER"/>
+
+	</LeaderTraits>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MERIDA" Quote="LOC_LEADER_MERIDA_QUOTE"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_BRAVE" Name="LOC_TRAIT_LEADER_BRAVE_NAME" Description="LOC_TRAIT_LEADER_BRAVE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_SCOTTISH_ARCHER" Name="LOC_TRAIT_LEADER_SCOTTISH_ARCHER_NAME" Description="LOC_TRAIT_LEADER_SCOTTISH_ARCHER_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_UNION_AND_BRAVERY" Name="LOC_TRAIT_AGENDA_UNION_AND_BRAVERY_NAME" Description="LOC_TRAIT_AGENDA_UNION_AND_BRAVERY_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_BRAVE" ModifierId="TRAIT_COMBAT_BONUS_MERIDA"/>
+		<Row TraitType="TRAIT_LEADER_BRAVE" ModifierId="TRAIT_COMBAT_FAITH_MERIDA"/>
+		<Row TraitType="TRAIT_LEADER_BRAVE" ModifierId="TRAIT_RELIC_NATURE_WONDER_MERIDA"/>
+		<Row TraitType="TRAIT_AGENDA_UNION_AND_BRAVERY" ModifierId="AGENDA_UNION_AND_BRAVERY_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_UNION_AND_BRAVERY" ModifierId="AGENDA_UNION_AND_BRAVERY_WAR"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_MERIDA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>MERIDA_UNIT_TYPE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_FAITH_MERIDA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RELIC_NATURE_WONDER_MERIDA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_NATURAL_WONDER_RELIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RANGED_COMBAT_BONUS_MERIDA</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_SURPRISE_WAR</SubjectRequirementSetId>
+		</Row>
+	
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_MERIDA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RANGED_COMBAT_BONUS_MERIDA</Value>
+		</Row>
+		<Row>
+			<ModifierId>RANGED_COMBAT_BONUS_MERIDA</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RELIC_NATURE_WONDER_MERIDA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_FAITH_MERIDA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_FAITH_MERIDA</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<Name>IncrementTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_MERIDA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_UNION_AND_BRAVERY_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-18</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_WAR</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_WAR</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_MERIDA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_UNION_AND_BRAVERY_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_UNION_AND_BRAVERY_WAR</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="RANGED_COMBAT_BONUS_MERIDA" Context="Preview" Text="LOC_RANGED_COMBAT_BONUS_MERIDA_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<AiListTypes>
+		<Row ListType="MeridaCivics"/>
+		<Row ListType="MeridaTechs"/>
+		<Row ListType="MeridaWonders"/>
+		<Row ListType="MeridaUnitBuilds"/>
+		<Row ListType="MeridaDiplomacy"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="MeridaDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_UNION_AND_BRAVERY"/>
+
+		<Row LeaderType="TRAIT_LEADER_BRAVE" ListType="MeridaWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_LEADER_BRAVE" ListType="MeridaCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_LEADER_BRAVE" ListType="MeridaTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_LEADER_BRAVE" ListType="MeridaUnitBuilds" System="UnitPromotionClasses"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!--Wonder Preference-->
+		<!--Civic Preference-->
+		<Row Item="CIVIC_MILITARY_TRAINING" ListType="MeridaCivics"/>
+		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="MeridaCivics"/>
+		<Row Item="CIVIC_MYSTICISM" ListType="MeridaCivics"/>
+		<Row Item="CIVIC_DIVINE_RIGHT" ListType="MeridaCivics"/>
+		<Row Item="CIVIC_REFORMED_CHURCH" ListType="MeridaCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_ARCHERY" ListType="MeridaTechs"/>
+		<Row Item="TECH_IRON_WORKING" ListType="MeridaTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_RANGED" ListType="MeridaUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="MeridaDiplomacy" Favored="false" Item="DIPLOACTION_DECLARE_SURPRISE_WAR"/>
+	</AiFavoredItems>
+	<Agendas>
+		<Row AgendaType="AGENDA_UNION_AND_BRAVERY" Description="LOC_AGENDA_UNION_AND_BRAVERY_DESCRIPTION" Name="LOC_AGENDA_UNION_AND_BRAVERY_NAME"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MERIDA" AgendaType="AGENDA_UNION_AND_BRAVERY"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_UNION_AND_BRAVERY" TraitType="TRAIT_AGENDA_UNION_AND_BRAVERY"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_UNION_AND_BRAVERY" AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_UNION_AND_BRAVERY" AgendaTwo="AGENDA_DARWINIST"/>
+	</ExclusiveAgendas>
+</GameData>

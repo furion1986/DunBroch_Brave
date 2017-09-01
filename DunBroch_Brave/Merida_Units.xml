@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merida_Units -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 9:23:10 PM -->
+<GameData>
+	<Types>
+		<!-- Unique-->
+		<Row Kind="KIND_UNIT" Type="UNIT_SCOTTISH_ARCHER"/>
+		<Row Type="ABILITY_SCOTTISH_ARCHER" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_SCOTTISH_ARCHER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_SCOTTISH_ARCHER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SCOTTISH_ARCHER" Tag="CLASS_SCOTTISH_ARCHER"/>
+		<Row Type="ABILITY_SCOTTISH_ARCHER" Tag="CLASS_SCOTTISH_ARCHER"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_SCOTTISH_ARCHER" BaseMoves="3" Cost="70" 
+			 AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" 
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 Name="LOC_UNIT_SCOTTISH_ARCHER_NAME" Description="LOC_UNIT_SCOTTISH_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+			 PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="1" Combat="20" MandatoryObsoleteTech="TECH_BALLISTICS"
+			 RangedCombat="26" Range="2" PrereqTech="TECH_ARCHERY" TraitType="TRAIT_LEADER_SCOTTISH_ARCHER"/>
+	</Units>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_SCOTTISH_ARCHER" Name="LOC_ABILITY_SCOTTISH_ARCHER_NAME" Description="LOC_ABILITY_SCOTTISH_ARCHER_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SCOTTISH_ARCHER</UnitAbilityType>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_MOVE_IGNORE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SCOTTISH_ARCHER</UnitAbilityType>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_SIGHT_IGNORE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SCOTTISH_ARCHER</UnitAbilityType>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_MELEE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_MOVE_IGNORE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_SIGHT_IGNORE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_MELEE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SCOTTISH_ARCHER_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_MOVE_IGNORE</ModifierId>
+			<Name>CanSee</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_SIGHT_IGNORE</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_SIGHT_IGNORE</ModifierId>
+			<Name>Type</Name>
+			<Value>FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCOTTISH_ARCHER_BONUS_MELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="SCOTTISH_ARCHER_BONUS_MELEE" Context="Preview" Text="LOC_ABILITY_SCOTTISH_ARCHER_BONUS_MELEE_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAiInfos>
+		<!-- Unique-->
+		<Row UnitType="UNIT_SCOTTISH_ARCHER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SCOTTISH_ARCHER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SCOTTISH_ARCHER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SCOTTISH_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row ReplacesUnitType="UNIT_ARCHER" CivUniqueUnitType="UNIT_SCOTTISH_ARCHER"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_SCOTTISH_ARCHER" UpgradeUnit="UNIT_CROSSBOWMAN"/>
+	</UnitUpgrades>
+</GameData>

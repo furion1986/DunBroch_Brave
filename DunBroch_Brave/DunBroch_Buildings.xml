@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DunBroch_Buildings -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 10:14:18 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_CAMPSITE" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_CAMPSITE" Name="LOC_BUILDING_CAMPSITE_NAME" 
+			 Description="LOC_BUILDING_CAMPSITE_DESCRIPTION" PrereqCivic="CIVIC_MYSTICISM" 
+			 PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="85" 
+			 AdvisorType="ADVISOR_CONQUEST" Maintenance="0" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_CAMPSITE"/>
+	</Buildings>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_CAMPSITE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+	</Building_GreatWorks>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_CAMPSITE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Building_YieldChanges>
+
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_CAMPSITE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_CAMPSITE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_CAMPSITE" ReplacesBuildingType="BUILDING_BARRACKS"/>
+	</BuildingReplaces>
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_CAMPSITE</BuildingType>
+			<ModifierId>CAMPSITE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAMPSITE</BuildingType>
+			<ModifierId>CAMPSITE_MORE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>CAMPSITE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>CAMPSITE_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CAMPSITE_MORE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>CAMPSITE_MORE_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CAMPSITE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAMPSITE_MORE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dunbroch_Icons -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/28/2017 9:21:33 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_MERIDA_CIV" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_22"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_30"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_36"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_45"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_48"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_50"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_64"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_80"/>
+		<Row Name="ICON_MERIDA_CIV" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_256"/>
+
+
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_32"/>
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_45"/>
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_50"/>
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_55"/>
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_64"/>
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_80"/>
+		<Row Name="ICON_ATLAS_MERIDA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="MERIDA_256"/>
+
+		<Row Name="ICON_MERIDA_CIV_MERIDA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DUNBROCH_CIV_MERIDA_45"/>
+
+		<Row Name="ICON_ATLAS_SCAS" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_32"/>
+		<Row Name="ICON_ATLAS_SCAS" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_38"/>
+		<Row Name="ICON_ATLAS_SCAS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_50"/>
+		<Row Name="ICON_ATLAS_SCAS" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_70"/>
+		<Row Name="ICON_ATLAS_SCAS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_80"/>
+		<Row Name="ICON_ATLAS_SCAS" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_128"/>
+		<Row Name="ICON_ATLAS_SCAS" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="castles_256"/>
+
+		<Row Name="ICON_ATLAS_SARCHER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ArcherM_22.dds"/>
+		<Row Name="ICON_ATLAS_SARCHER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ArcherM_32.dds"/>
+		<Row Name="ICON_ATLAS_SARCHER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ArcherM_38.dds"/>
+		<Row Name="ICON_ATLAS_SARCHER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ArcherM_50.dds"/>
+		<Row Name="ICON_ATLAS_SARCHER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ArcherM_80.dds"/>
+		<Row Name="ICON_ATLAS_SARCHER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ArcherM_256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_MERIDA" Atlas="ICON_ATLAS_MERIDA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_DUNBROCH_MERIDA" Atlas="ICON_MERIDA_CIV_MERIDA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_DUNBROCH" Atlas="ICON_MERIDA_CIV" Index="0"/>
+		<Row Name="ICON_DISTRICT_SCOTTISH_CASTLE" Atlas="ICON_ATLAS_SCAS" Index="0"/>
+		<Row Name="ICON_DISTRICT_SCOTTISH_CASTLE_FOW" Atlas="ICON_ATLAS_SCAS" Index="0"/>
+
+		<Row Name="ICON_UNIT_SCOTTISH_ARCHER" Atlas="ICON_ATLAS_SARCHER" Index="0"/>
+		<Row Name="ICON_UNIT_UNIT_SCOTTISH_ARCHER_FOW" Atlas="ICON_ATLAS_SARCHER" Index="0"/>
+
+		<Row Name="ICON_UNIT_SCOTTISH_ARCHER_BLACK" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+		<Row Name="ICON_UNIT_SCOTTISH_ARCHER_WHITE" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+
+		<Row Name="ICON_BUILDING_CAMPSITE" 		Atlas="ICON_ATLAS_BUILDINGS" Index="2"/>
+		<Row Name="ICON_BUILDING_CAMPSITE_FOW"	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="2"/>
+
+		<Row Name="ICON_UNIT_SCOTTISH_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS" Index="27"/>
+	</IconDefinitions>
+</GameData>

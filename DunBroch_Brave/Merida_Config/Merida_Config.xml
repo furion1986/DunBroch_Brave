@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merida_Config -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 10:47:28 PM -->
+<GameData>
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DUNBROCH</CivilizationType>
+			<LeaderType>LEADER_MERIDA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_DUNBROCH_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_DUNBROCH_MERIDA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MERIDA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MERIDA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_DUNBROCH_MERIDA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_BRAVE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_BRAVE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MERIDA</LeaderAbilityIcon>
+			<Portrait>LEADER_MERIDA_NEUTRAL</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<CivilizationType>CIVILIZATION_DUNBROCH</CivilizationType>
+			<LeaderType>LEADER_MERIDA</LeaderType>
+			<Type>DISTRICT_SCOTTISH_CASTLE</Type>
+			<Name>LOC_DISTRICT_SCOTTISH_CASTLE_NAME</Name>
+			<Description>LOC_DISTRICT_SCOTTISH_CASTLE_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_SCOTTISH_CASTLE</Icon>
+			<!-- CHANGE THIS!-->
+			<SortIndex>10</SortIndex>
+			<!-- CHANGE THIS!-->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DUNBROCH</CivilizationType>
+			<LeaderType>LEADER_MERIDA</LeaderType>
+			<Type>BUILDING_CAMPSITE</Type>
+			<Name>LOC_TTRAIT_CIVILIZATION_CAMPSITE_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_CAMPSITE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_BARRACKS</Icon>
+			<!-- CHANGE THIS!-->
+			<SortIndex>20</SortIndex>
+			<!-- CHANGE THIS!-->
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DUNBROCH</CivilizationType>
+			<LeaderType>LEADER_MERIDA</LeaderType>
+			<Type>UNIT_SCOTTISH_ARCHER</Type>
+			<Name>LOC_TRAIT_LEADER_SCOTTISH_ARCHER_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_SCOTTISH_ARCHER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SCOTTISH_ARCHER</Icon>
+			<!-- CHANGE THIS!-->
+			<SortIndex>30</SortIndex>
+			<!-- CHANGE THIS!-->
+		</Row>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DunBroch_District -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/25/2017 11:33:42 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_SCOTTISH_CASTLE" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_SCOTTISH_CASTLE" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" Name="LOC_DISTRICT_SCOTTISH_CASTLE_NAME" Description="LOC_DISTRICT_SCOTTISH_CASTLE_DESCRIPTION"
+			 PrereqCivic="CIVIC_MYSTICISM" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" 
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" 
+			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" 
+			 InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="DOMAIN_LAND" Appeal="1" CityStrengthModifier="7" TraitType="TRAIT_CIVILIZATION_SCOTTISH_CASTLE"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" YieldChangeId="SeaScottish_Faith"/>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" YieldChangeId="ForestScottish_Culture"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SCOTTISH_CASTLE" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+	</District_TradeRouteYields>
+	<Adjacency_YieldChanges>
+		<Row ID="SeaScottish_Faith" Description="LOC_SCOTTISH_SEA_FAITH" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_COAST"/>
+		<Row ID="ForestScottish_Culture" Description="LOC_SCOTTISH_FOREST_CULTURE" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+	</Adjacency_YieldChanges>
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_SCOTTISH_CASTLE</DistrictType>
+			<ModifierId>SCOTTISH_CASTLE_INFLUENCE</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SCOTTISH_CASTLE_INFLUENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SCOTTISH_CASTLE_INFLUENCE</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_ENVOYS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCOTTISH_CASTLE_INFLUENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>	
+	</ModifierArguments>
+</GameData>

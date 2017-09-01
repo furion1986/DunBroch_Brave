@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Merida_Localization -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/27/2017 9:17:33 AM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_NAME" >
+			<Text>Dun Broch</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_DESCRIPTION" >
+			<Text>Kingdom of Dun Broch</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_ADJECTIVE" >
+			<Text>Kingdom of Dun Broch</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM_NAME" >
+			<Text>Celtic Enthuisasm</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM_DESCRIPTION" >
+			<Text>All units cost less -1[ICON_Gold]maintaniance.[NEWLINE]Cities that have garrison yield +1 amenity and +2[ICON_Faith]faith and +2[ICON_Culture]Culture.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_CASTLE_NAME" >
+			<Text>Scottish Castle</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_CASTLE_DESCRIPTION" >
+			<Text>A unique district</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCOTTISH_CASTLE_NAME" >
+			<Text>Scottish Castle</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCOTTISH_CASTLE_DESCRIPTION" >
+			<Text>Replace Encampment.Unlocked by civic "Mysticism".[NEWLINE]+1[ICON_Culture]Culture for sea adjacence and +2[ICON_Faith]faith for forest adjacence.[NEWLINE]Yield +1[ICON_Faith]faith and +1[ICON_Production]production for citizen working. [NEWLINE]Can be build next to the city center and +1 appeal +5 city combat strenghth addtionally.[NEWLINE]Every scotish castle make Dun Broch obtain [ICON_Envoy]influence fatser by 5%. [NEWLINE]Yield +1[ICON_GreatGeneral]general and +1[ICON_GreatProphet]prophet great man points.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SCOTTISH_ARCHER_NAME" >
+			<Text>Scottish Archer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SCOTTISH_ARCHER_DESCRIPTION" >
+			<Text>A unique ranged unit replace archer.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCOTTISH_ARCHER_NAME" >
+			<Text>Scottish Archer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCOTTISH_ARCHER_DESCRIPTION" >
+			<Text>Replace archer.3 movements.Cost more[ICON_Production]production.[NEWLINE]Higher combat[ICON_Strength]strenghth and ranged[ICON_Strength]strenghth.Aftering the reserch of "Iron Working",+8[ICON_Strength]strenghth while defending.Ignore the sight and movement block of forest features.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SCOTTISH_ARCHER_NAME" >
+			<Text>Forest Archer</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SCOTTISH_ARCHER_DESCRIPTION" >
+			<Text>Aftering the reserch of "Iron Working",+8[ICON_Strength]strenghth while defending.Ignore the sight and movement block of forest features.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CAMPSITE_NAME"  >
+			<Text>Campsite</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CAMPSITE_DESCRIPTION"  >
+			<Text>A unique building replacing barracks.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CAMPSITE_NAME"  >
+			<Text>Campsite</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CAMPSITE_DESCRIPTION"  >
+			<Text>Replace barracks.Cost a little more[ICON_Production]production,no [ICON_Gold]maintaining.Provide +25% experience for melee and anti-cavalry units and +50% experience for ranged and siege units.[NEWLINE]Yield +1[ICON_GreatGeneral]general and +1[ICON_GreatProphet]prophet great man points.[NEWLINE]One relic slot.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_1">
+			<Text>DunBroch Castle</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_2">
+			<Text>Edinburgh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_3">
+			<Text>Glasgow</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_4">
+			<Text>Inverness</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_5">
+			<Text>Wick</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_6">
+			<Text>Broadford</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_7">
+			<Text>Craignure</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_8">
+			<Text>Mull</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_9">
+			<Text>Stirling</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_10">
+			<Text>Alloway</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_11">
+			<Text>Oban</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_12">
+			<Text>St. Andrew</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_13">
+			<Text>Iona</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_14">
+			<Text>Braemar</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_15">
+			<Text>Greenock</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_16">
+			<Text>Dundee</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_17">
+			<Text>Lybster</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_18">
+			<Text>Culloden</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_19">
+			<Text>Falkrik</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DUNBROCH_CITY_20">
+			<Text>Ullapool</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>Let's tell everyone about this!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>Not yet!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>Shall I call us friends?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>Thank ya!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>You fool!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>Come and I will shoot at your head!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>A war is declared! Understand? You scum.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>They will be feeling like home.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>No waa!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>We are going to visit you. Prepare for everything and make room for our gifts.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>We, don't, accept!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>The Lost Kingdom collapesed because of the selfishness of their ruler. Your future is bleak too because of your evildoing! (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MERIDA_ANY">
+			<Text>I, am Merida, firstborn of Clan MacDunbroch. Nice to meet ya.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MERIDA_ANY">
+			<Text>Why not pay a visit to our castles? We can have an archery match.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MERIDA_ANY">
+			<Text>Thank ya for your hospitality</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MERIDA_ANY">
+			<Text>How about...talking about everyone's home?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_MERIDA_ANY">
+			<Text>Nice to meet ya agian.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MERIDA_ANY">
+			<Text>We are in a strong friendship, aren't we?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_MERIDA_REASON_ANY">
+			<Text>(You are friend to them)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MERIDA_ANY">
+			<Text>You are a corward so you do this, right?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MERIDA_REASON_ANY">
+			<Text>(You have backstabbed a friend or declared a surprise war.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>Let's united, and we will be stronger!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MERIDA_ANY">
+			<Text>This war no longer makes sense.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MERIDA_ANY">
+			<Text>No. You should pay for it more than this.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>Let's stop this foolish conflict.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>If you dare to meet bears, you are welcome to our domain.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MERIDA_ANY">
+			<Text>No one is visiting our sacred forest.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>Can we go through your domain like this?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MERIDA_ANY">
+			<Text>A war that you want, right? Let your man go awaa!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>No....that is all my fault...Our kingdom...Our alliance...and my family....</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>No waa!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MERIDA_ANY">
+			<Text>That's good!</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SCOTTISH_ARCHER_BONUS_MELEE_MODIFIER_DESCRIPTION">
+			<Text>+8 Combat Strength while defending since they have iron weapons.</Text>
+		</Row>
+
+		<Row Tag="LOC_RANGED_COMBAT_BONUS_MERIDA_DESCRIPTION">
+			<Text>+2 Strength from Merida's leadership.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_MERIDA_NAME">
+			<Text>Merida</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BRAVE_NAME" >
+			<Text>Brave</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BRAVE_DESCRIPTION" >
+			<Text>Ranged unit gain +2 strenghth.Units gain faith equal to 50% strenghth of the unit they eliminate.[NEWLINE]Gain a relic upon a nature wonder is discovered by Merida.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_UNION_AND_BRAVERY_NAME" >
+			<Text>Union adn Bravery</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_UNION_AND_BRAVERY_DESCRIPTION" >
+			<Text>Likes civilizations who are loyal to friends.Dislikes civilizations who declare a suprise war.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

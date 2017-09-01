@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DunBroch_Civilization_Ablities -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/25/2017 11:12:23 PM -->
+<GameData>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM</TraitType>
+			<ModifierId>TRAIT_CELTIC_UNITMAINTENANCEDISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM</TraitType>
+			<ModifierId>TRAIT_CITIES_AMENITY_UPON_ARMY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM</TraitType>
+			<ModifierId>TRAIT_CITIES_CULTURE_UPON_ARMY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_CELTIC_ENTHUSIASM</TraitType>
+			<ModifierId>TRAIT_CITIES_FAITH_UPON_ARMY</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CELTIC_UNITMAINTENANCEDISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+		</Row>
+		<!-- GARRISON-->
+		<Row>
+			<ModifierId>TRAIT_CITIES_AMENITY_UPON_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_CULTURE_UPON_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_FAITH_UPON_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CELTIC_UNITMAINTENANCEDISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_AMENITY_UPON_ARMY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_CULTURE_UPON_ARMY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_CULTURE_UPON_ARMY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_FAITH_UPON_ARMY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITIES_FAITH_UPON_ARMY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

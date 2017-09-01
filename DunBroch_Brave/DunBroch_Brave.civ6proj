@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Dunbroch_Brave</Name>
+    <Guid>f800d46e-e731-43ed-bbb1-84fec26dd7b8</Guid>
+    <ProjectGuid>d08266b3-aae2-449a-9cdb-e06ad0659ba4</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Add Dunbroch as a new civilization and Merida as a new leader.</Teaser>
+    <Description>All rights belong to Walt Disney/Pixar.
+Brave(2012)</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>Merida_Config/Merida_UI.xml</File><File>Requirements/DunBroch_Civilization_Requirements.xml</File><File>Requirements/Merida_Requirements.xml</File><File>Requirements/Merida_Unit_Requirements.xml</File><File>DunBroch_Buildings.xml</File><File>DunBroch_Civilization_Ablities.xml</File><File>DunBroch_Civilizations.xml</File><File>DunBroch_District.xml</File><File>Merida_Leader.xml</File><File>Merida_Units.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>Text/Merida_Localization.xml</File><File>Text/Merida_Localaztion_CN.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>Dunbroch_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Merida_Config/Merida_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/Merida_Localization.xml</File><File>Text/Merida_Localaztion_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Dunbroch_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_MERIDA</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>DunBroch_Brave</AssemblyName>
+    <RootNamespace>DunBroch_Brave</RootNamespace>
+    <Authors>Entarogan</Authors>
+    <SpecialThanks>KCucumber,Furion1986,Aidan</SpecialThanks>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Merida_Config" />
+    <Folder Include="Text" />
+    <Folder Include="Requirements" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+    <None Include="GettingStarted.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DunBroch_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DunBroch_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DunBroch_Civilization_Ablities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DunBroch_District.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Dunbroch_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Merida_Config\Merida_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Merida_Config\Merida_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Merida_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Merida_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Requirements\DunBroch_Civilization_Requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Requirements\Merida_Requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Requirements\Merida_Unit_Requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_MERIDA.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_MERIDA.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MERIDA_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MERIDA_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MERIDA_DIP.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MERIDA_DIP.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MERIDA_LOAD.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MERIDA_LOAD.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Merida_Localaztion_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Merida_Localization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\DunbrochAtlas.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

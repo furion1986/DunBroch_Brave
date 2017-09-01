@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DunBroch_Civilization_Requirements -->
+<!-- Author: windows -->
+<!-- DateCreated: 7/26/2017 10:38:18 PM -->
+<GameData>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CAMPSITE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CAMPSITE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_ANTI_CAV</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CAMPSITE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_MELEE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CAMPSITE_MORE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CAMPSITE_MORE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CAMPSITE_MORE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_SIEGE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+</GameData>
