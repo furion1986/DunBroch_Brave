@@ -9,6 +9,7 @@
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
 				<Element text="Units.artdef" />
+				<Element text="Unit_Bins.artdef" />
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -558,6 +559,7 @@
 		<Element>
 			<libraryName text="Unit"/>
 			<relativePackagePaths>
+				<Element text="units/units"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
